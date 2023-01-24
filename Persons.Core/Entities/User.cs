@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Diagnostics.Eventing.Reader;
 
 namespace Persons.Core.Entities
 {
@@ -26,5 +27,6 @@ namespace Persons.Core.Entities
         public string? BirthCertificateId { get; set; }
         public string? Address { get; set; }
         public bool IsDeleted { get; set; } = false;
+        public bool teko { get; set; }
     }
 }
